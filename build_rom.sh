@@ -6,7 +6,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # build rom 
 source build/envsetup.sh
 lunch aosp_vayu-user
-export PEX_BUILD_TYPE=OFFICIAL
+# export PEX_BUILD_TYPE=OFFICIAL
 export TZ=Asia/Dhaka #put before last build command
 mka bacon
 
